@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Timer from "./components/timer";
+import Counter from "./components/counter";
+import TrafficLight from "./components/traffic_light";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Timer />
+    <Counter />
+    <TrafficLight />
   </React.StrictMode>,
   document.getElementById('root')
 );
