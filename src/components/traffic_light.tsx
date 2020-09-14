@@ -15,13 +15,10 @@ export default class TrafficLight extends React.Component<{}, TrafficLightState>
       switch (this.state.light) {
         case "green":
           return "yellow"
-          break;
         case "yellow":
           return "red"
-          break;
         case "red":
           return "green"
-          break;
       }
     }
     setInterval(() => {
@@ -30,15 +27,9 @@ export default class TrafficLight extends React.Component<{}, TrafficLightState>
       })
 
       this.setState({
-
       })
     }, 1000)
   }
-  componentWillUnmount() {
-
-  }
-
-
 
   render() {
     const lightStyle = {
