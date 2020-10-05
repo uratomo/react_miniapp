@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Timer from "./components/timer";
 import Counter from "./components/counter";
+import Box from "./components/box"
+import FileWrapper from "./components/fileWrapper"
 import TrafficLight from "./components/traffic_light";
 import * as serviceWorker from './serviceWorker';
 
@@ -11,6 +13,8 @@ ReactDOM.render(
     <Timer />
     <Counter />
     <TrafficLight />
+    <Box />
+    <FileWrapper />
   </React.StrictMode>,
   document.getElementById('root')
 );
